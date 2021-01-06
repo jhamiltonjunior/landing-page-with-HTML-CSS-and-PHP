@@ -1,0 +1,22 @@
+@keyframes video{
+	0%{
+		opacity:0;
+	}
+
+	100%{
+		opacity:1;
+	}
+}
+
+@keyframes primeiro-titulo{
+	0%{
+		padding: 150px 0 20px 0;
+		opacity:0;
+	}
+
+	100%{
+		padding: 30px 0 20px 0;
+		opacity:1;
+	}
+	
+}

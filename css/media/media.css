@@ -1,0 +1,232 @@
+@media screen and (max-width:1130px){
+	section.section-artigo  .imagem-principal div.imagem-chamada{
+		margin:0 0 -5px 6%;
+	}
+
+	section.section-artigo article.classepadrao{
+		max-width:600px;
+	}
+}
+
+@media screen and (max-width: 984px){
+	section.section-artigo  .imagem-principal div.imagem-chamada{
+		margin:0 0 -5px 0%;
+	}
+	section.section-artigo article.classepadrao{
+		max-width:536px;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	section.section-video div.primeiro-titulo{
+		padding: 10px 0 20px 0;
+	}
+	.video-de-venda iframe{
+		width: 96%;
+		height: 400px;
+	}
+
+	.classepadrao form.formulario-do-video fieldset{
+		width: 60%;
+	}
+
+	section.section-chamada{
+		padding: 50px 10px;
+	}
+
+}
+
+@media screen and (min-width: 916px){
+	section.section-artigo .classepadrao div.redes-sociais{
+		position: -webkit-sticky;
+	  	position: sticky;
+	  	top:70px;
+  	}
+}
+
+@media screen and (max-width: 915px){
+	section.section-artigo  .imagem-principal{
+		text-align:center;
+	}
+
+	section.section-artigo  .imagem-principal div.anuncio-complementar{
+		display:none;
+	}
+	section.section-artigo .classepadrao div.redes-sociais{
+		width:160px;
+		height:50px;
+		position:fixed;
+		bottom:0;
+		left:calc(50% - 80px);
+		float:none;
+	}
+
+	div.redes-sociais div.pagina-do-facebook,
+	div.redes-sociais div.perfil-do-instagram,
+	div.redes-sociais div.perfil-do-linkedin{
+		width: 50px;
+		display:inline-block;
+		margin:0;
+	}
+
+	section.section-artigo article.classepadrao{
+		max-width:750px;
+		padding: 0 2%;
+		display: block;
+		margin:0 auto;
+	}
+
+	div.classepadrao div.ebook-gratis{
+		width:100%;
+		margin: 40px 0 0;
+		float:none;
+	}
+
+	div.ebook-gratis div.ebook-de-games,
+	div.ebook-gratis div.ebook-de-full-stack,
+	div.ebook-gratis div.curso-gratis-danki{
+		display:inline-block;
+	}
+
+	div.ebook-gratis div.ebook-de-full-stack{
+		margin:0 30px 0 30px;
+	}
+}
+
+@media screen and (max-width: 900px){
+	div.curso-gratis-danki{
+		float:none;
+	}
+}
+
+
+@media screen and (max-width: 819px){
+		section.section-vantagens .classepadrao{
+		padding: 0;
+		text-align: center;
+		height: auto;
+	}
+
+
+	div.incapsular-right,div.incapsular-left{
+		display: inline-block;
+		text-align:left;
+		position: static;
+	}
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 724px){
+	.video-de-venda iframe{
+		width: 100%;
+		height: 350px;
+
+	}
+
+	.classepadrao form.formulario-do-video fieldset{
+		width: 70%;
+	}
+
+	section.section-chamada{
+		padding: 30px 10px;
+	}
+
+
+	section.section-explicacao div.explicacao-left{
+		width: 80%;
+		margin:0 auto;
+		float: none;
+	}
+
+	section.section-explicacao div.explicacao-right{
+		width: 80%;
+		margin:0 auto;
+		float: none;
+	}
+
+	section.section-explicacao div.explicacao-right div,
+	section.section-explicacao div.explicacao-left div{
+		margin: 0 10px 45px;
+		
+	}
+
+	section.section-explicacao div.explicacao-right div p,
+	section.section-explicacao div.explicacao-left div p{
+		padding: 20px;
+	}
+
+	.border1{
+		border-top: 5px solid #b9a832;
+		border-left:0;
+	}
+
+	.border2{
+		border-top:5px solid #d7385e;
+		border-left:0;
+
+	}
+
+	.border3{
+		border-top: 5px solid #8ba3e3;
+		border-left:0;
+
+	}
+
+	.border4{
+		border-top:5px solid #cb8be2;
+		border-left:0;
+	}
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 650px){
+	section.section-video .classepadrao .video-de-venda{
+		width: 90%;
+	}
+
+	section.section-artigo  .imagem-principal div.imagem-chamada{
+		height:215px;
+	}
+
+	div.ebook-gratis div.ebook-de-full-stack{
+		margin:0 0 30px 0;
+	}
+}
+
+
+
+
+
+
+@media screen and (max-width: 610px){
+	.video-de-venda iframe{
+		height: 220px;
+
+	}
+
+	.classepadrao form.formulario-do-video fieldset{
+		width: 100%;
+	}
+
+	article.classepadrao div.imagens-do-artigo img{
+		width: 80%;
+	}
+
+
+	div.classepadrao div.ebook-gratis{
+		width:100%;
+		margin: 40px 0 0;
+		float:none;
+	}
+
+}

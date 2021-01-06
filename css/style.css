@@ -1,0 +1,550 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Nunito', sans-serif;
+}
+
+body,html{
+	height: 100%;
+	background-color:#f5f5f5;
+}
+
+/*******TAGs e CLASS`s PADROES******/
+
+fieldset{
+	border:0;
+}
+
+a{
+	font-weight:bolder;
+	text-decoration:none;
+	color:#5e3ea1;
+}
+
+.classepadrao{
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+	/*background-color: #0b3b80;*/
+}
+
+.clear{
+	clear:both;
+}
+/***********/
+
+/*
+*
+*
+*
+*
+*****TEXTO CHAMADA E IFRAME
+*
+*
+*
+*/
+
+.section-video{
+	width: 100%;
+	background-color: #0b3b80;
+}
+.section-video .classepadrao{
+	text-align: center;
+/*	height:900px;*/
+}
+
+.video-de-venda{
+	width: 80%;
+	height: 100%;
+	position: relative;
+	text-align: center;
+	margin:0 auto;
+	animation:video 3s 1;
+}
+
+section.section-video div.primeiro-titulo{
+	text-align: center;
+	padding: 30px 0 20px 0;
+	animation:primeiro-titulo 3s 1;
+	/*animation-delay:1s;*/
+}
+
+.section-video #h1{
+	font-size: 40px;
+	color: white;
+	padding:0 0 7px 0;
+
+}
+
+.section-video #h2{
+	font-size: 35px;
+	color: white;
+	display: inline-block;
+	background-color: red;
+}
+/**
+width="560"
+height="315"
+frameborder="0"
+
+
+*/
+.video-de-venda iframe{
+	width: 90%;
+	height: 450px;
+	border: 9px solid white;
+	border-radius: 15px;
+}	
+	/*animation-delay:1s;*/
+
+
+
+
+
+
+/*
+*
+*
+*
+*******				formulario do video
+*
+*
+*
+*
+*/
+.formulario-mobile{
+	display: none;
+}
+
+
+.classepadrao form.formulario-do-video fieldset{
+	width: 50%;
+	padding: 10px 2%;
+	margin: 10px 0 30px 0;
+	border:0;
+	border-radius: 15px;
+	background-color: white;
+	display: inline-block;
+}
+
+
+form.formulario-do-video fieldset h2{
+	font-size: 26px;
+	font-weight: normal;
+}
+
+form.formulario-do-video fieldset h2 span{
+	background-color: orange;
+}
+
+form.formulario-do-video input[type="email"]{
+	width: 92%;
+	font-size: 20px;
+	border:0;
+	border-bottom: 1px solid black;
+	margin-bottom: 10px;
+	padding: 15px 10px;
+	outline:0;
+}
+
+form.formulario-do-video .botaoenviar{
+	width: 50%;
+	display: inline-block;
+}
+
+form.formulario-do-video input[type="submit"]{
+	width: 100%;
+	font-size:20px;
+	font-weight:bolder;
+	cursor: pointer;
+	color: #0b3c81;
+	border:0;
+	border-bottom:5px solid /*#c6921c*/#c48e12;
+	background-color: #faaf18;
+	padding-bottom: 10px;
+	padding: 15px 10px;
+
+}
+
+
+
+
+
+
+
+
+/*
+**
+**
+*
+*				**SECTION CHAMADA**
+*
+*
+*
+**/
+section.section-chamada{
+	color: white;
+	padding: 80px 10px;
+}
+
+section.section-chamada, section.section-chamada .classepadrao{
+	text-align: center;
+	background-color: black;
+}
+
+section.section-chamada .classepadrao > h2{
+	font-size: 30px;
+	padding: 20px;
+}
+
+section.section-chamada .classepadrao > h2 span{
+	background-color: red;
+}
+
+
+
+/*
+
+
+***********BOTÃO DE VER O ARTIGO
+
+
+*/
+
+
+.btn-ver-artigo{
+	width: 300px;
+	display: inline-block;
+	cursor: pointer;
+	height: 64px;
+	line-height: 64px;
+	border-radius: 30px;
+	background-color: #5e3ea1;
+	transition: 1s;
+}
+
+.btn-ver-artigo:hover{
+	background-color: #FF703D;
+}
+
+.btn-ver-artigo a{
+	color: white;
+	text-decoration: none;
+}
+
+/*
+
+
+
+**********CONTEÚDO PRINCIPAL
+
+
+*********SECTION EXPLICAÇÃO
+
+*/
+section.section-explicacao{
+	background-color:#f5f5f5;
+}
+
+
+section.section-explicacao div h2{
+	font-size: 30px;
+	padding: 20px 0;
+	text-align: center;
+}
+
+section.section-explicacao div.explicacao-left{
+	width: 49%;
+	float: left;
+}
+
+section.section-explicacao div.explicacao-right{
+	width: 49%;
+	float: right;
+}
+
+section.section-explicacao div.explicacao-right div,
+section.section-explicacao div.explicacao-left div{
+	margin: 0 45px 45px;
+	background-color:white;
+	box-shadow:0 0 12px 1px gray;
+}
+
+section.section-explicacao div.explicacao-right div p,
+section.section-explicacao div.explicacao-left div p{
+	padding: 20px;
+	font-size:18px;
+}
+
+.border1{
+	border-left: 5px solid #b9a832;
+}
+
+.border2{
+	border-left:5px solid #d7385e;
+}
+
+.border3{
+	border-left: 5px solid #8ba3e3;
+}
+
+.border4{
+	border-left:5px solid #cb8be2;
+}
+
+
+
+section.section-artigo{
+	background-color:#f5f5f5;
+}
+
+section.section-artigo  .imagem-principal div.imagem-chamada{
+	width:100%;
+	max-width:601px;
+	height:500px;
+	text-align:center;
+	background-image:url('../imagens/w.png');
+	background-size:cover;
+	background-position:center;
+	display:inline-block;
+	margin:0 0 -5px 12%;
+}
+
+section.section-artigo  .imagem-principal div.anuncio-complementar{
+	float:right;
+	margin-right:5px;
+}
+
+div.imagem-principal div.anuncio-complementar div.anuncio{
+	width:260px;
+	height:240px;
+	padding:0 5px;
+	text-align:center;
+	border-radius:7px;
+	box-shadow:0 0 12px 1px gray;
+	background-color:white;
+}
+
+div.imagem-principal div.anuncio-complementar div.anuncio:nth-child(1){
+	margin-bottom:10px;
+}
+
+div.imagem-principal div.anuncio-complementar div.anuncio:nth-child(1) img{
+	padding-top:10px;
+}
+
+div.imagem-principal div.anuncio-complementar div.anuncio:nth-child(2) img{
+	width:80px;/*100px*/
+	height:120px;/*140px*/
+}
+
+div.anuncio-complementar div.anuncio p{
+	color:gray;
+	font-size:16px;
+	font-weight:bold;
+}
+
+div.anuncio-complementar div.anuncio p:nth-child(3){
+	text-decoration:underline;
+	color:#5e3ea1;
+	margin:11px 10px 0 0;
+	font-size:20px;
+}
+
+
+
+section.section-artigo div.classepadrao{
+	max-width:1140px;
+	padding:15px;
+}
+
+
+section.section-artigo .classepadrao div.redes-sociais{
+	width: 50px;
+	height: 170px;
+	z-index:1;
+	margin:15px 15px 0 0;
+	float:left;
+}
+
+div.redes-sociais div.pagina-do-facebook,
+div.redes-sociais div.perfil-do-instagram,
+div.redes-sociais div.perfil-do-linkedin{
+	width:50px;
+	height:50px;
+	margin-bottom:10px;
+	background-image:url('../imagens/redes-sociais-codigoexpert.webp');
+	background-size:cover;
+	background-position:left;
+	border-radius:12px;
+}
+
+div.redes-sociais div.perfil-do-instagram{
+	background-position:right;
+}
+
+div.redes-sociais div.perfil-do-linkedin{
+	background-position:center;
+}
+
+section.section-artigo article.classepadrao{
+	width: 100%;
+	max-width:750px;
+	border-radius: 0 0 7px 7px;
+	display: inline-block;
+	box-shadow:0 0 12px 1px gray;
+	margin:0;
+	background-color: white;
+}
+
+section.section-artigo article h2,
+section.section-artigo article h3,
+section.section-artigo article h4{
+	font-size:40px;
+	padding: 20px 20px;
+}
+
+section.section-artigo article h3{
+	font-size:30px;
+}
+
+section.section-artigo article h4{
+	font-size:20px;
+}
+
+section.section-artigo article p{
+	font-size: 20px;
+	padding: 20px 20px;
+}
+
+article.classepadrao div.imagens-do-artigo{
+	text-align:center;
+}
+
+div.classepadrao div.ebook-gratis{
+	width:270px;
+	padding:0 5px;
+	text-align: center;
+	float:right;
+}
+
+div.ebook-gratis div.titulo-do-ebook h3{
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+div.ebook-gratis div.imagem-do-ebook{
+	width: 195px;
+	height:285px;
+	margin:20px 0;
+	background-image:url('../imagens/ebook-de-games-pacote-full-stack-danki-code-codigoexpert.webp');
+	background-size:100% 530px;
+	background-position:top;
+	display: inline-block;
+}
+
+div.ebook-gratis div.ebook-de-games,
+div.ebook-gratis div.ebook-de-full-stack,
+div.ebook-gratis div.curso-gratis-danki,
+.ebook-gratis div.afiliacao-umbler{
+	width:260px;
+	border-radius:7px;
+	box-shadow:0 0 12px 1px gray;
+	margin:20px 0;
+	background-color:white;
+}
+
+.ebook-gratis div.afiliacao-umbler{
+	display: inline-block;
+}
+
+.afiliacao-umbler .afiliacao-umbler-teste span{
+	width:200px;
+	color:white;
+	padding:5px 10px;
+	margin:10px 0 15px;
+	display: inline-block;
+	border-radius:27px;
+	background-color:#ee3d51;
+	transition:1s;
+}
+
+.afiliacao-umbler .afiliacao-umbler-teste span:hover{
+	background-color:#5d7df4;
+}
+
+div.ebook-gratis div.ebook-de-full-stack div.imagem-do-ebook{
+	height:255px;
+	background-size:100% 580px;
+	background-position:bottom;
+}
+
+div.ebook-gratis form.form-de-games input[type="email"],
+div.ebook-gratis form.form-full-stack input[type="email"]{
+	width: 90%;
+	outline: 0;
+	font-size:20px;
+	margin: 50px 0 15px;
+	padding:10px 5px;
+}
+
+div.ebook-gratis form.form-de-games input[type="submit"],
+div.ebook-gratis form.form-full-stack input[type="submit"]{
+	width:85%;
+	color:white;
+	font-size:22px;
+	font-weight:bold;
+	padding:10px 20px;
+	margin-bottom:15px;
+	cursor:pointer;
+	background-color:#5e3ea1;/*#747bf0*/
+	border:0;
+	border-radius:25px;
+	transition:1s;
+}
+
+
+div.ebook-gratis form.form-de-games input[type="submit"]:hover,
+div.ebook-gratis form.form-full-stack input[type="submit"]:hover{
+	background-color:#FF703D;
+}
+
+
+div.ebook-gratis div.curso-gratis-danki a{
+	text-decoration:none;
+	margin-bottom:10px;
+}
+
+div.ebook-gratis div.curso-gratis-danki a p,
+.ebook-gratis div.afiliacao-umbler a p{
+	font-size:18px;
+	color:gray;
+	text-align:left;
+	padding:10px;
+}
+
+
+div.ebook-gratis div.curso-gratis-danki a p:nth-child(2),
+.ebook-gratis div.afiliacao-umbler a p:nth-child(3){
+	font-size:22px;
+	text-decoration:underline;
+	color:#5e3ea1;
+	font-weight:bold;
+	padding-bottom:10px;
+}
+
+footer{
+	width: 100%;
+	height: 200px;
+	line-height:200px;
+	margin-top: 60px;
+	text-align:center;
+	background-color:#333333;
+}
+
+footer a,footer span{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
