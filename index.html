@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 	date_default_timezone_set('America/Sao_Paulo');
 	//$pdo = new PDO('mysql:host=localhost;dbname=database','root','');
 
@@ -32,7 +32,7 @@
 	}
 
 
-?>
+?> -->
 <!DOCTYPE html>
 <html>
 	<head>
@@ -70,13 +70,13 @@
 				<iframe src="https://www.youtube.com/embed/_OmhoKvjD9U"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-				<?php
+				<!-- <?php
 
 					$acao = filter_input(INPUT_POST,"acao");
 
 					if($acao === NULL){
 
-				?>
+				?> -->
 				<form method="post" class="formulario-do-video">
 					<fieldset>
 						<h2>Quer Ter a Oportunidade de <span>Aprender a Programar de Graça</span>?</h2>
@@ -88,14 +88,14 @@
 					</fieldset>
 				</form><!--formulario-do-video-->
 
-				<?php } else{ ?>
+				<!-- <?php } else{ ?>
 
 				<div style="display: inline-block; padding: 20px 40px; background-color: white; margin: 10px 0 30px 0; border-radius:15px;">
 
 					<h2>Em breve você receberá um <span style="background-color: orange;">Email de confirmação!</span> :-D</h2>
 				</div>
 
-				<?php } ?>
+				<?php } ?> -->
 				
 				
 			</div><!--video-de-venda-->
@@ -435,13 +435,13 @@
 				<div class="ebook-de-games">
 					<h2>E-Book Desenvolvimento de Games</h2>
 
-			<?php
+			<!-- <?php
 
 				$acao_games = filter_input(INPUT_POST,"acao-games");
 
 				if($acao_games === NULL){
 
-			?>
+			?> -->
 
 					<div class="imagem-do-ebook" title="Ebook Desenvolvimento de Games"></div>
 
@@ -456,27 +456,27 @@
 					</form>
 
 
-				<?php }else{ ?>
+				<!-- <?php }else{ ?>
 
 					<div style="padding:10px;">
 						<h2>Seu cadastro foi realizado com <span style="background-color:orange;">sucesso</span>! :-D</h2>
 					</div>
 
-				<?php } ?>
+				<?php } ?> -->
 
 
 				</div><!--ebook-de-games-->
 
 	
 				<div class="ebook-de-full-stack">
-					<h2>E-Book Como Se Tornar um Desenvolvedor Full-Stack</h2>
+					<!-- <h2>E-Book Como Se Tornar um Desenvolvedor Full-Stack</h2>
 
 					<?php  
 						$acao_fullstack = filter_input(INPUT_POST,"acao-fullstack");
 
 						if($acao_fullstack === NULL){
 
-					?>
+					?> -->
 					<div class="imagem-do-ebook" title="Ebook Pacote Full-Stack"></div>
 
 					<form method="post" class="form-full-stack">
@@ -489,13 +489,13 @@
 						</fieldset>
 					</form>
 
-				<?php }else{ ?>
+				<!-- <?php }else{ ?>
 
 					<div style="padding:10px;">
 						<h2>Em breve você reberá o seu <span style="background-color:orange;">ebook</span>! (-:</h2>
 					</div>
 
-				<?php } ?>
+				<?php } ?> -->
 				</div><!--ebook-de-full-stack-->
 			</div><!--section-relacionados ebook-gratis-->
 		</div><!--classepadrao-->
